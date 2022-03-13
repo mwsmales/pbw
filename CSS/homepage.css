@@ -1,19 +1,19 @@
 .main {
     background: darkgrey;
-    height: 800px;
+    height: 100%;
     width: 100%;
     border: 3px solid red;
     display: grid;
-    grid-template-rows: 100px 600px 100px;
+    grid-template-rows: 100px 200px 1065px 100px;
 }
 
 .header {
     border: 1px solid red;
+    grid-area: 1 / 1 / 2 / 2;
     display: flex;
     flex-direction: row; 
     align-items: flex-start;
     justify-content: flex-start;
-    grid-area: 1 / 1 / 2 / 2;
 }
 
 .logo {
@@ -31,13 +31,80 @@
     border: 1px solid red;
 }
 
-.body {
+.feature_card {
     border: 1px solid black;
-    display: flex;
     grid-area: 2 / 1 / 3 / 2;
+    display: flex;
 }
+
+.card_view {
+    border: 1px solid black;
+    grid-area: 3 / 1 / 4 / 2;
+    margin: 50px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-areas:
+    "one two three"
+    "four five six"
+    "seven eight nine"
+    "ten eleven twelve"
+    ;
+}   
+
+.blog_card {
+    border: 1px solid red;
+    height: 200px;
+}
+
+    #card_one {
+        grid-area: one;
+    }
+
+    #card_two {
+        grid-area: two;
+    }
+
+    #card_three {
+        grid-area: three;
+    }
+
+    #card_four {
+        grid-area: four;
+    }
+
+    #card_five {
+        grid-area: five;
+    }
+
+    #card_six {
+        grid-area: six;
+    }
+
+    #card_seven {
+        grid-area: seven;
+    }
+    
+    #card_eight {
+        grid-area: eight;
+    }
+    
+    #card_nine {
+        grid-area: nine;
+    }
+    
+    #card_ten {
+        grid-area: ten;
+    }
+    
+    #card_eleven {
+        grid-area: eleven;
+    }
+    
+    #card_twelve {
+        grid-area: twelve;
+    }
 
 .footer {
     border: 1px solid blue;
-    grid-area: 3 / 1 / 4 / 2;
+    grid-area: 4 / 1 / 5 / 2;
 }

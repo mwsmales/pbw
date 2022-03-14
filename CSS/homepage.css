@@ -6,6 +6,7 @@
 }
 
 
+/* Navigation bar */
 .header {
     height: 80px;
     background-color: grey;
@@ -24,11 +25,22 @@
 
 .blog_title {
     width: 200px;
+    height: 40px;
+    margin: 20px 40px;
 }
 
 
-.nav_bar {
+.nav_menu {
     width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.navbar_link {
+    width: 100px;
+    height: 40px;
+    margin: 20px 0;
 }
 
 /* Featured-article card */
@@ -67,7 +79,7 @@
 .blog_card {
     background-color: grey;
     border-radius: 5px;
-    height: 400px;
+    height: 300px;
 }
 
 

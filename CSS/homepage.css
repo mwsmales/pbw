@@ -48,7 +48,7 @@
 
 
 #feature_pic {
-    width: 60%;
+    width: 850px;
     margin: 0;
     border-radius: 5px;
 }
@@ -58,6 +58,8 @@
     margin: 0 20px;
 }
 
+
+/* Card container grid */
 .card_container {
     grid-area: 3 / 1 / 4 / 2;
     margin: 50px 100px;
@@ -72,73 +74,87 @@
 }   
 
 
-.blog_card {
-    background-color: grey;
-    border-radius: 5px;
-    height: 300px;
+#card_one {
+    grid-area: one;
 }
 
 
-    #card_one {
-        grid-area: one;
-    }
+#card_two {
+    grid-area: two;
+}
 
 
-    #card_two {
-        grid-area: two;
-    }
+#card_three {
+    grid-area: three;
+}
 
 
-    #card_three {
-        grid-area: three;
-    }
+#card_four {
+    grid-area: four;
+}
 
 
-    #card_four {
-        grid-area: four;
-    }
+#card_five {
+    grid-area: five;
+}
 
 
-    #card_five {
-        grid-area: five;
-    }
+#card_six {
+    grid-area: six;
+}
 
 
-    #card_six {
-        grid-area: six;
-    }
+#card_seven {
+    grid-area: seven;
+}
 
 
-    #card_seven {
-        grid-area: seven;
-    }
-    
-
-    #card_eight {
-        grid-area: eight;
-    }
-    
-
-    #card_nine {
-        grid-area: nine;
-    }
-    
-
-    #card_ten {
-        grid-area: ten;
-    }
-    
-
-    #card_eleven {
-        grid-area: eleven;
-    }
-    
-
-    #card_twelve {
-        grid-area: twelve;
-    }
+#card_eight {
+    grid-area: eight;
+}
 
 
+#card_nine {
+    grid-area: nine;
+}
+
+
+#card_ten {
+    grid-area: ten;
+}
+
+
+#card_eleven {
+    grid-area: eleven;
+}
+
+
+#card_twelve {
+    grid-area: twelve;
+}
+
+
+/* Individual blog post card */
+.blog_card {
+    height: 400px;
+    width: 400px;
+    display: grid;
+    grid-template-rows: 200px 200px;
+}
+
+
+.card_pic {
+    grid-row: 1 / 2;
+    border-radius: 5px;
+}
+
+
+.card_text_container {
+    grid-row: 2 / 3;
+}
+
+
+/* Footer */
 .footer {
     background-color: grey;
     height: 300px;

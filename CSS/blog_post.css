@@ -1,53 +1,24 @@
+@import "./navbar.css";
+
+
 .main {
     display: grid;
     grid-template-rows: 80px min-content 300px;
 }
 
 
-/* Navigation bar */
-.header {
-    height: 80px;
-    box-shadow: 0 5px 5px -5px grey;
-    grid-area: 1 / 1 / 2 / 2;
-    display: flex;
-    flex-direction: row; 
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-
-
-.blog_title {
-    width: 200px;
-    height: 40px;
-    margin: 20px 40px;
-}
-
-
-.nav_menu {
-    width: 400px;
-    display: flex;
-    justify-content: space-around;
-}
-
-
-.navbar_link {
-    width: 100px;
-    height: 40px;
-    margin: 20px 0;
-}
-
-
 /* Title block */
-.headline_pic {
-    height: 300px;
-    width: 600px;
-}
-
-
 .social_sharing {
     margin: 10px 0;
     width: 300px;
 }
+
+
+.headline_pic {
+    height: 300px;
+    width: 600px;
+    border-radius: 5px;
+}    
 
 
 /* Ariticle container */
@@ -82,11 +53,13 @@
     "Left Right-2"
     "Left Right-3"
     "Left Right-4";
+    grid-template-columns: 70px max-content;
 }
 
 
 #avatar_img {
     grid-area: Left;
+    filter: grayscale(100%);
 }
 
 

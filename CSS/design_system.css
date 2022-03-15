@@ -19,9 +19,21 @@ h3 {
 
 p {
     font-family: sans-serif;
+    line-height: 1.5em;
 }
 
 
 p strong {
     color: rgb(1, 39, 6);
+}
+
+
+a {
+    font-family: sans-serif;
+    color: rgb(1, 39, 6);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }

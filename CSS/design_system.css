@@ -1,0 +1,27 @@
+h1 {
+    font-family: sans-serif;
+    color: rgb(0, 29, 4);
+    font-weight: normal;
+}
+
+
+h2 {
+    font-family: sans-serif;
+    color: rgb(1, 39, 6);
+}   
+
+
+h3 {
+    font-family: sans-serif;
+    color: rgb(1, 39, 6);
+}
+
+
+p {
+    font-family: sans-serif;
+}
+
+
+p strong {
+    color: rgb(1, 39, 6);
+}

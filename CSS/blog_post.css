@@ -57,12 +57,53 @@
 }
 
 
+/* Article info block */
 .article_info {
     width: 100%;
-    height: 100px; 
-    background: grey;
+    height: 100px;
+    display: flex; 
 }
 
+
+.author_info {
+    margin: 10px;
+    height: 80px;
+    width: 300px;
+    display: grid;
+    grid-template-areas:
+    "Left Right-1"
+    "Left Right-2"
+    "Left Right-3"
+    "Left Right-4";
+}
+
+
+#avatar_img {grid-area: Left;}
+
+
+#author_name {grid-area: Right-1;}
+
+
+#author_title {grid-area: Right-2;}
+
+
+#author_company {grid-area: Right-3;}
+
+
+#article_date {grid-area: Right-4;}
+
+.author_bio {
+    margin: 10px;
+    height: 80px;
+    width: 300px;
+}
+
+
+.social_sharing {
+    margin: 10px;
+    height: 80px;
+    width: 300px;
+}
 
 /* Footer */
 .footer {

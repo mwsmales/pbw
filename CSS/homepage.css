@@ -47,15 +47,17 @@
 }
 
 
+#feature_text_container {
+    margin: 0 20px;    
+    display: flex;
+    flex-direction: column;
+}
+
+
 #feature_pic {
     width: 850px;
     margin: 0;
     border-radius: 5px;
-}
-
-
-#feature_text {
-    margin: 0 20px;
 }
 
 

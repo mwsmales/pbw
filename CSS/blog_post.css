@@ -1,4 +1,6 @@
 @import "./navbar.css";
+@import "./footer.css";
+
 
 
 .main {
@@ -88,13 +90,3 @@
     width: 300px;
     margin: 10px;
 }
-
-
-/* Footer */
-.footer {
-    grid-row:  3 / 4;
-    height: 300px;
-    background-color: grey;
-}
-
-

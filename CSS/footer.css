@@ -1,0 +1,6 @@
+/* Footer */
+.footer {
+    background-color: grey;
+    height: 300px;
+    grid-area: 4 / 1 / 5 / 2;
+}

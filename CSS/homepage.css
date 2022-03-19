@@ -1,4 +1,5 @@
 @import "./navbar.css";
+@import "./footer.css";
 
 
 .main {
@@ -123,12 +124,4 @@
 
 .card_text_container {
     grid-row: 2 / 3;
-}
-
-
-/* Footer */
-.footer {
-    background-color: grey;
-    height: 300px;
-    grid-area: 4 / 1 / 5 / 2;
 }

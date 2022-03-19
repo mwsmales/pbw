@@ -2,6 +2,11 @@
 @import "./footer.css";
 
 
+body {
+    margin: 0 0;
+}
+
+
 .main {
     height: 100%;
     width: 100%;

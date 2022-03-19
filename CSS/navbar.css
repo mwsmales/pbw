@@ -6,13 +6,13 @@
     display: flex;
     flex-direction: row; 
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
+    padding: 0 100px; 
 }
 
 
 .blog_title {
     width: 150px;
-    margin: 0 100px;
 }
 
 

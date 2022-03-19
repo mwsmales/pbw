@@ -2,6 +2,10 @@
 @import "./footer.css";
 
 
+body {
+    margin: 0 0;
+}
+
 
 .main {
     display: grid;

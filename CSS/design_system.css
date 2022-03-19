@@ -1,3 +1,9 @@
+#design_sys_main {
+    display: flex;
+    flex-direction: column;
+}
+
+
 h1 {
     font-family: sans-serif;
     color: rgb(0, 29, 4);
@@ -34,6 +40,26 @@ a {
     text-decoration: none;
 }
 
+
 a:hover {
     text-decoration: underline;
+}
+
+
+.subscribe_button {
+    width: 200px;
+    text-align: center;
+    padding: 20px 0;
+    color: black;
+    background-color: grey;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.subscribe_button:hover {
+    background-color: white;
+    transition: box-shadow 300ms;
+    box-shadow: 5px 5px 10px grey;
+    text-decoration: none;
 }

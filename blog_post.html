@@ -8,6 +8,9 @@
         <link rel="stylesheet" type="text/CSS" href="./css/design_system.css" />
     </head>
     <body>
+        <!-- social sharing plugin snippets -->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v13.0" nonce="oTGlZZiP"></script>
         <div class="main">
             <div class="header">
                 <h2 class="blog_title">Michael's Blog</h2>
@@ -20,10 +23,16 @@
             <div class="article_container">
                 <div class="title_block">
                     <h1 class="title">Suspendisse fringilla dui massa, non condimentum</h1>
-                    <div class="social_sharing">Social sharing box
+                    <div class="social_sharing">
+                        <div class="fb-share-button" data-href="https://bbc.co.uk/" data-layout="button" data-size="small">
+                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdummypage%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a>
+                        </div>                    
+                        <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+                        <script type="IN/Share" data-url="https://www.bbc.co.uk"></script>
+                        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
-                    <img class="    " src="http://placekitten.com/600/300" alt="banner pic placeholder">
                 </div>
+                <img class="headline_pic" src="http://placekitten.com/600/300" alt="banner pic placeholder">
                 <div class="article_info">
                     <div class="author_info">
                         <img id="avatar_img" src="http://placekitten.com/50/50" alt="Avatar"> 
@@ -49,7 +58,7 @@
                     <p>Aenean efficitur justo sit amet purus suscipit lobortis. Sed convallis, mauris et ultrices dignissim, mauris ex consectetur tortor, in venenatis quam mauris vitae metus. Integer sed lacus sit amet mauris malesuada condimentum at id velit. Nulla sollicitudin ante sapien, semper vestibulum ipsum pulvinar accumsan.</p>
                 </div>
             </div>
-            <div class="footer">Article footer</div>
+            <div class="footer"><p>&copy Michael Smales March 2022</p></div>
         </div>
     </body>
 </html> 

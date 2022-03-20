@@ -1,18 +1,21 @@
 /* Navigation bar */
 .header {
     height: 80px;
-    box-shadow: 0 5px 5px -5px grey;
     grid-area: 1 / 1 / 2 / 2;
     display: flex;
     flex-direction: row; 
     align-items: center;
     justify-content: space-between;
-    padding: 0 100px; 
+    padding: 0 100px;
+    border-bottom: 1px solid var(--theme-color-secondary);
 }
 
 
 .blog_title {
     width: 150px;
+    height: 50px;
+    background-color: var(--theme-color-primary);
+    padding: 10px 10px;
 }
 
 

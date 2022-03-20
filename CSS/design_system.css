@@ -1,43 +1,105 @@
+body {
+    margin: 0 0;
+    background-color: var(--theme-color-background);
+}
+
+
 #design_sys_main {
     display: flex;
     flex-direction: column;
 }
 
 
+/* colour palette */
+:root {
+    --theme-color-primary: #2a1e5c;
+    --theme-color-secondary:#d6d5c9;
+    --theme-color-font: rgb(10,10,10);
+    --theme-color-background: whitesmoke; 
+}
+
+
+#primary_colour {
+    background: var(--theme-color-primary);
+    height: 50px;
+    width: 200px;
+}
+
+
+#secondary_colour {
+    background: var(--theme-color-secondary);
+    height: 50px;
+    width: 200px;
+}
+
+
+#background_colour {
+    background: var(--theme-color-background);
+    height: 50px;
+    width: 200px;
+}
+
+
+#font_colour {
+    color: var(--theme-color-font);
+    height: 50px;
+    width: 200px;
+}
+
+
+/* fonts */
 h1 {
     font-family: sans-serif;
-    color: rgb(0, 29, 4);
+    color: var(--theme-color-primary);
     font-weight: normal;
 }
 
 
 h2 {
     font-family: sans-serif;
-    color: rgb(1, 39, 6);
+    color: var(--theme-color-primary);
 }   
+
+
+h2.contrast {
+    color: var(--theme-color-background);
+}
+
+
+h2.logo {
+    color: var(--theme-color-background);
+    margin: 0 0;
+}
 
 
 h3 {
     font-family: sans-serif;
-    color: rgb(1, 39, 6);
+    color: var(--theme-color-font);
 }
 
 
 p {
     font-family: sans-serif;
     line-height: 1.5em;
+    color: var(--theme-color-font);
+}
+
+
+p.contrast {
+    color: var(--theme-color-background);
 }
 
 
 p strong {
-    color: rgb(1, 39, 6);
+    color: var(--theme-color-primary);
 }
 
 
 a {
     font-family: sans-serif;
-    color: rgb(1, 39, 6);
+    color: var(--theme-color-font);
     text-decoration: none;
+    font-weight: bold;
 }
 
 
@@ -47,19 +109,20 @@ a:hover {
 
 
 .subscribe_button {
-    width: 200px;
+    width: 150px;
     text-align: center;
-    padding: 20px 0;
-    color: black;
-    background-color: grey;
+    padding: 10px 0;
+    color: var(--theme-color-background);
+    background-color: var(--theme-color-primary);
     font-weight: bold;
     border-radius: 5px;
 }
 
 
 .subscribe_button:hover {
-    background-color: white;
-    transition: box-shadow 300ms;
-    box-shadow: 5px 5px 10px grey;
+    background-color: var(--theme-color-secondary);
+    color: var(--theme-color-font);
+    box-shadow: 2px 2px 2px grey;
+    /* transition: box-shadow 200ms; */
     text-decoration: none;
 }

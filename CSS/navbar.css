@@ -20,15 +20,18 @@
 
 
 .nav_menu {
-    width: 500px;
+    width: 600px;
     display: flex;
     justify-content: space-around;
 }
 
 
 .navbar_link {
-    width: 100px;
+    width: 120px;
     margin: 20px 0;
 }
 
 
+.navbar_link:hover {
+    text-decoration: underline;
+}

@@ -1,3 +1,6 @@
+@import "./navbar.css";
+
+
 body {
     margin: 0 0;
     background-color: var(--theme-color-background);
@@ -72,6 +75,11 @@ h2.logo {
 }
 
 
+h2:hover {
+    text-decoration: none;
+}
+
+
 h3 {
     font-family: sans-serif;
     color: var(--theme-color-font);
@@ -82,6 +90,8 @@ p {
     font-family: sans-serif;
     line-height: 1.5em;
     color: var(--theme-color-font);
+    font-weight: normal;
+    text-decoration: none;
 }
 
 
@@ -100,11 +110,6 @@ a {
     color: var(--theme-color-font);
     text-decoration: none;
     font-weight: bold;
-}
-
-
-a:hover {
-    text-decoration: underline;
 }
 
 

@@ -6,7 +6,7 @@
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-rows: 80px min-content min-content min-content;
+    grid-template-rows: min-content min-content min-content min-content;
     grid-gap: 50px;
 }
 

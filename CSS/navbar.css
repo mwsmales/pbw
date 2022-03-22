@@ -1,7 +1,7 @@
 /* Navigation bar */
 .header {
-    height: 80px;
     grid-area: 1 / 1 / 2 / 2;
+    height: 80px;
     display: grid;
     grid-template-columns: 150px 1fr 150px; 
     grid-gap: 10px;
@@ -11,12 +11,34 @@
     border-bottom: 1px solid var(--theme-color-secondary);
 }
 
+@media (max-width: 800px) {
+    .header {
+        grid-area: 1 / 1 / 2 / 2;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto auto auto; 
+        grid-gap: 0;
+        padding: 0 0;
+        border-bottom: 1px solid var(--theme-color-secondary);
+    }
+}
+
 
 .blog_title {
     width: 130px;
-    height: 50px;
+    max-height: 50px;
     background-color: var(--theme-color-primary);
     padding: 10px 10px;
+}
+
+
+@media (max-width: 800px) {
+    .blog_title {
+        width: 100%;
+        height: 50px;
+        padding: 10px 10px;
+    }
 }
 
 
@@ -27,12 +49,33 @@
 }
 
 
+@media (max-width: 800px) {
+    .nav_menu {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px 50px 50px;
+    }
+}
+
+
 .navbar_link {
     width: 120px;
     margin: 20px 0;
     text-align: center;
 }
 
+
+@media (max-width: 800px) {
+    .navbar_link {
+        width: 100%;
+        height: 30px;
+        margin: 0 0;
+        padding: 10px 10px;
+        text-align: left;
+        background-color: var(--theme-color-secondary);
+    }
+}
 
 .navbar_link:hover {
     text-decoration: underline;

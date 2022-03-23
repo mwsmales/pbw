@@ -48,7 +48,14 @@
     margin: 0 20px;    
     display: flex;
     flex-direction: column;
-}    
+}
+
+
+@media (max-width: 1000px) {
+    #feature_text_container {
+        margin: 0 0;
+    }
+}
 
 
 /* Card container grid */
@@ -160,6 +167,13 @@
     display: grid;
     grid-template-rows: auto;
     max-width: 100%;
+}
+
+
+@media (max-width: 800px) {
+    .blog_card {
+        padding: 0 0;
+    }
 }
 
 

@@ -61,28 +61,20 @@ h1 {
 h2 {
     font-family: sans-serif;
     color: var(--theme-color-primary);
+    font-weight: 900;
 }   
-
-
-h2.contrast {
-    color: var(--theme-color-background);
-}
 
 
 h2.logo {
     color: var(--theme-color-background);
     margin: 0 0;
+    font-weight: bold;
 }
-
-
-h2:hover {
-    text-decoration: none;
-}
-
 
 h3 {
     font-family: sans-serif;
     color: var(--theme-color-font);
+    font-weight: 900;
 }
 
 
@@ -95,13 +87,24 @@ p {
 }
 
 
-p.contrast {
-    color: var(--theme-color-background);
+p strong {
+    font-family: sans-serif;
+    color: var(--theme-color-primary);
+    font-weight: 900;
 }
 
 
-p strong {
-    color: var(--theme-color-primary);
+p u {
+    font-family: sans-serif;
+    color: var(--theme-color-font);
+    text-decoration-thickness: 1px;
+}
+
+
+p q {
+    font-family: sans-serif;
+    color: var(--theme-color-font); 
+    background-color: var(--theme-color-secondary);
 }
 
 
@@ -109,7 +112,7 @@ a {
     font-family: sans-serif;
     color: var(--theme-color-font);
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 
@@ -134,7 +137,8 @@ a {
 }
 
 
-/*smaller screens i.e. mobile devices */
+/* media queries */
+/* smaller screens - mobile */
 @media (max-width: 700px) {
     .subscribe_button {
         width: 100%;

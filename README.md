@@ -6,12 +6,6 @@ My first attempt creating a website of this size from scratch.  Visual design is
 
 This is a project created for the Udacity frontend nanodegree.
 
-# Table of Contents
-
-- [Project Title](#project-title)
-- [Installation](#installation)
-- [Development](#development)
-
 # Installation
 Clone the repo and open the index.html file locally!
 

@@ -116,6 +116,13 @@ a {
 }
 
 
+figcaption {
+    font-family: sans-serif;
+    color: var(--theme-color-font);
+    font-size: 10pt;
+}
+
+
 /* buttons */
 .subscribe_button {
     width: 150px;

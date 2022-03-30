@@ -35,6 +35,11 @@
 
 
 /* Headline pic */
+figure {
+    margin: 0 0;
+}
+
+
 .headline_pic {
     height: 300px;
     width: 600px;
